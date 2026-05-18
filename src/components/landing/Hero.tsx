@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 export default function Hero() {
   const [text, setText] = useState("")
-  const fullText = "Разработчик"
+  const fullText = "Full-Stack Разработчик"
 
   useEffect(() => {
     let i = 0
@@ -38,15 +38,15 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Привет, я <span className="text-primary">Алекс Морган</span>
+              Привет, я <span className="text-primary">Ваше Имя</span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground mb-6">
               <span className="text-foreground">{text}</span>
               <span className="animate-blink">|</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-lg">
-              Создаю качественные цифровые продукты с чистым кодом и современными технологиями.
-              Превращаю сложные задачи в элегантные решения.
+              Разрабатываю современные веб-приложения и цифровые продукты под ключ.
+              От идеи до запуска — быстро, красиво и надёжно.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -87,8 +87,8 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 rounded-full"></div>
             <div className="absolute inset-4 bg-muted rounded-full overflow-hidden">
               <img
-                src="/placeholder.svg?height=400&width=400"
-                alt="Алекс Морган"
+                src="https://cdn.poehali.dev/projects/7effd62d-751c-4cd7-ab96-8e778d70da46/files/abc22774-fb42-42f8-b3cc-f130ea8563fc.jpg"
+                alt="Разработчик"
                 className="w-full h-full object-cover"
               />
             </div>

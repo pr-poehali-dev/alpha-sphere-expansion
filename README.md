@@ -1,3 +1,7 @@
-# alpha-sphere-expansion
+# Портфолио Разработчика
 
-Initial repository setup for pr-poehali-dev/alpha-sphere-expansion
+![Preview](preview.png)
+
+Современный шаблон портфолио для разработчиков и фрилансеров. Темная тема с фиолетовыми акцентами, плавные анимации при скролле. Включает секции: герой-блок с CTA, обо мне, технологический стек, портфолио проектов, отзывы клиентов и форму обратной связи.
+
+`"tags": ["portfolio", "dark", "developer", "testimonials", "animations"]`
